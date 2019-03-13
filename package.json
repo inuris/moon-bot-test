@@ -1,0 +1,27 @@
+{
+  "name": "moon-bot",
+  "version": "1.1.0",
+  "description": "Moon Bot",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "debug": "node app.js"
+  },
+  "author": "KhoaLam",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "discord-logger": "^1.0.1",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "htmlparser2": "^3.10.1",
+    "jsonpath": "^1.0.1",
+    "request": "^2.88.0",
+    "soupselect-update": "^0.2.5",
+    "request-promise": "^4.2.4",
+    "cheerio": "^0.22.0"
+  },
+  "engines": {
+    "node": "10"
+  }
+}
